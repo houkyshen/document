@@ -57,6 +57,10 @@ Python：
 ```python
 for i in range(10):
 ```
+或
+```python
+for i in range(0, 10):
+```
 Python 的 for 是**迭代循环**，不是计数循环。
 
 遍历列表：
