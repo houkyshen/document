@@ -18,6 +18,7 @@ Create local directory
 
 Run the Container
 
+```shell
 docker run -d --name oracle-19c \
 -p 1521:1521 \
 -e ORACLE_SID=ORCL \
@@ -25,6 +26,7 @@ docker run -d --name oracle-19c \
 -e ORACLE_CHARACTERSET=AL32UTF8 \
 -v /your/custom/path/oracle-19c/oradata/:/opt/oracle/oradata \
 swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/doctorkirk/oracle-19c
+```
 
 # start/stop the container
 docker start oracle-19c
